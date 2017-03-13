@@ -1,0 +1,24 @@
+[
+    // ctrl+deleteで行削除
+    { "keys": ["ctrl+delete"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+    // 行複製
+    { "keys": ["ctrl+enter"], "command": "duplicate_line" },
+    // F3で関数の宣言元にジャンプ
+    { "keys": ["f3"], "command": "goto_definition" },
+    // alt+左で戻る
+    { "keys": ["alt+left"], "command": "jump_back" },
+    // alt+右で戻ったのをまた進める
+    { "keys": ["alt+right"], "command": "jump_forward" },
+    // インデント揃え
+    {
+        "keys": [
+            "control+i"
+        ],
+        "command": "reindent" ,
+        "args": {
+                "single_line": "false"
+         }
+     },
+    { "keys": ["alt+f"], "command": "codic_translate_string" },
+    { "keys": ["alt+d"], "command": "codic_input_string" },
+]

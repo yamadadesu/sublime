@@ -1,0 +1,22 @@
+{
+	"color_scheme": "Packages/User/SublimeLinter/Cobalt (SL).tmTheme",
+	"default_encoding": "UTF-8",
+	"default_line_ending": "unix",
+	"draw_white_space": "all",
+	"fallback_encoding": "UTF-8",
+	"font_face": "Myrica M",
+	"font_size": 13,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_top": 4,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"tab_size": 4,
+	"theme": "Boxy Monokai.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"word_wrap": false
+}
